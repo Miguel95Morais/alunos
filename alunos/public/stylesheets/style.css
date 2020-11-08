@@ -6,3 +6,52 @@ body {
 a {
   color: #00B7FF;
 }
+header{
+  padding: 5px;
+}
+#student{
+  width: 200px;
+} 
+header section{
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+}
+header, footer, nav{
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+}
+footer{
+  padding-left: 5px;
+  padding-right: 10px;
+  padding: 20px;
+}
+nav{
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+main{
+  color: #333333;
+}
+aside{
+  background-color: white;
+  border: solid blueviolet;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+aside a{
+  color: blueviolet;
+  text-decoration: none;
+}
+
